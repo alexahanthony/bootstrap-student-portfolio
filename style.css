@@ -3,10 +3,23 @@
 }
 
 main {
-    background-image: url(../bootstrap-student-portfolio/assets/Images/blue-snow.png);
+    background-image: url(../bootstrap-student-portfolio/assets/Images/greek-vase.png);
+    position: relative;
     padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 3%;
     background-size: cover;
-    background-color: pink;
+}
+
+p {
+    padding-top: 2%; 
+    font-size: 18pt;
+    color: grey;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+form {
+    padding-bottom: 2%;
 }
 
 h1 {
@@ -16,60 +29,66 @@ h1 {
     padding-top: 2%;
 }
 
+h3 {
+    font-size: 30pt;
+    color: white;
+}
+
+h5 {
+    font-size: 20pt;
+}
+
+img {
+    float: left;
+    padding-right: 4%;
+    padding-top: 2%;
+}
+
+a {
+    font-family:'Shadows Into Light';
+}
+
 .navbar {
     color: white;
     border-bottom: 1pt solid lightgrey;
+    text-align: right;
+    width: 100%;
+}
+#navbarTogglerDemo01 {
+color: red;
 }
 
 .navbar-brand {
     background: plum;
     margin-left: 20%;
     padding: 2%;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Shadows Into Light';
     color: white;
-    font-size: 24pt;
-    position: relative;
+    font-size: 20pt;
+    
+}
 
-}
-p {
-    padding-top: 2%; 
-    font-size: 18pt;
-    color: grey;
-    font-family: 'Shadows Into Light', cursive;
-}
 .container {
-    margin-top: 8%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 8%;
-    background: white;
-    width: 960px;
+
+    background: lightgray;
     padding-bottom: 2%;
+    margin-top: 4%;
+    width: 80%;
+    position: relative;
 }
 #navbarNavDropdown {
-    margin-left: 30%;
+    margin-left: 20%;
    
 }
 .nav-link {
     color: lightgrey;
 }
-img {
-    float: left;
-    padding-right: 4%;
-    padding-top: 4%;
-}
-a {
-    color: black;
-}
+
 .footer {
     height: 10%;
     color: white;
-    margin-left: 50%;
-}
-
-
-form {
-    padding-bottom: 2%;
+    text-align: center;
+    width: 100%;
 }
 
 .containerphoto {
@@ -87,7 +106,6 @@ form {
     width: 200px;
     text-align: center;
   }
-
 
 @media screen and (max-width:768px) {
     body {

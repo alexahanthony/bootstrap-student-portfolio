@@ -7,7 +7,7 @@ main {
     position: relative;
     padding: 2%;
     margin-top: 5%;
-    margin-bottom: 3%;
+    margin-bottom: 0%;
     background-size: cover;
 }
 
@@ -27,7 +27,7 @@ h1 {
     font-family: 'Shadows Into Light';
     font-size: 34pt;
     padding-top: 2%;
-    padding-left: 20%;
+   
 }
 
 h3 {
@@ -37,6 +37,7 @@ h3 {
 
 h5 {
     font-size: 20pt;
+    color: white;
 }
 
 img {
@@ -47,6 +48,7 @@ img {
 
 a {
     font-family:'Shadows Into Light';
+    color: white;
 }
 
 .navbar {
@@ -54,13 +56,24 @@ a {
     border-bottom: 1pt solid lightgrey;
     text-align: right;
     width: 100%;
+    background-color: plum;
+}
+.nav-name {
+    margin-left: 35%;
+    
 }
 
+.row-padding {
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .navbar .navbar-nav {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+    
 }
 
 .nav-item {
@@ -68,13 +81,14 @@ a {
 }
 
 .navbar-brand {
-    background: plum;
+    
     padding: 2%;
     font-family: 'Shadows Into Light';
     color: white;
     font-size: 20pt;
     
 }
+
 
 .container {
 
@@ -85,7 +99,7 @@ a {
     position: relative;
 }
 #navbarNavDropdown {
-    margin-left: 20%;
+    margin-left: 80%;
    
 }
 .nav-link {
@@ -97,23 +111,37 @@ a {
     color: white;
     text-align: center;
     width: 100%;
+    position: relative;
 }
 
 .containerphoto {
     position: relative;
     margin: 0 auto;
     display: inline-block;
+    height: fit-content;
   }
   .containerphoto .content {
     position: absolute;
     bottom: 0;
-    background: rgb(253, 173, 233);
-    background: rgba(253, 173, 233, 0.8); 
+    background: rgba(19, 20, 24, 0.6); 
     color: #f1f1f1; 
     padding: 0%;
-    width: 200px;
+    width: 343px;
     text-align: center;
   }
+
+  @media screen and (max-width:1050px) {
+    body {
+        margin-top: 5%;
+    }
+    .container {
+        width: 200;
+    }
+    .containerphoto {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
 
 @media screen and (max-width:768px) {
     body {
@@ -121,6 +149,10 @@ a {
     }
     .container {
         width: 200;
+    }
+    .containerphoto {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 @media screen and (max-width:640px) {

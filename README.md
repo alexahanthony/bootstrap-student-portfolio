@@ -1,5 +1,7 @@
 # bootstrap-student-portfolio
 
+![alt text](./assets/Images/screenshotreadme.png)
+
 # Table of Contents (Optional)
 N/A
 
